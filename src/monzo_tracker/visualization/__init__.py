@@ -1,0 +1,1 @@
+"""Visualizations for spending patterns."""

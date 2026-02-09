@@ -1,0 +1,21 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Token files (should be in home directory, but just in case)
+.monzo_tokens.json
+*_tokens.json
+
+# Excel files
+spreadsheet.xlsx
+.~lock.spreadsheet.xlsx#
+
+# Dotenv
+.env
