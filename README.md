@@ -16,12 +16,18 @@ A Python tool that connects to the Monzo API to fetch and track financial transa
 ## Usage
 
 ```bash
-uv run main.py
+uv run monzo-tracker
 ```
 
 On first run, a browser will open for Monzo authentication. Approve the login in your Monzo app within 5 minutes.
 
 Tokens are saved to `~/.monzo_tokens.json` and automatically refreshed when expired.
+
+If you would like to manually trigger re-auth, you can use:
+
+```bash
+uv run monzo-tracker --reauth
+```
 
 ---
 
